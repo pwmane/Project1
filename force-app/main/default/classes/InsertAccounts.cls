@@ -2,8 +2,8 @@ public class InsertAccounts {
     public static void insertAccounts() {
         List<Account> acclist = new List<Account>();
         for (Integer i=0;i<100;i++) {
-            acclist.add(new Account(Name='Test Account ' + i));
+            acclist.add(new Account(Name='Test Account ' + i, AccountNumber= 'Test' +1));
         }
         insert acclist;
-    }// new file    
+    }// new file
 }
